@@ -31,11 +31,13 @@
 * Poder reportar una nota.
 * Mostrar la cantidad de notas que el usuario ha creado, cerrado, comentado y reabierto.
 * Mostrar un perfil de contribuciones con la aplicación. Tener una opción para verlo en OSM y HDYC.
+* Tener un listado de hashtags para crear notas, que se puedan acceder fácilmente, y que tengan descripción para entenderlos.
+* Tener un listado de hashtags para cerrar notas.
 
 ## Avanzadas
 
 * Poder crear notas sin estar conectado a Internet.
-* Poder cargar todas las notas y sus datos que se capturaron durante una sesión fuera de línea.
+* Poder subir a internet todas las notas y sus datos que se capturaron durante una sesión fuera de línea.
 * Incluir la posición de la foto (las fotos de la nota pueden variar de la ubicación de creación de la nota).
 * Incluir la orientación de la cámara (N E S O).
 * Incluir el ángulo de inclinación de la cámara.
@@ -43,16 +45,22 @@
 * Permitir filmar un pequeño video.
 * Poder guardar un video y guardar traza GPX al mismo tiempo.
 * Recibir notificaciones de comentarios agregados en una nota creada con el usuario actualmente loggeado.
+* Recibir notificaciones de comentarios en las notas en las que se participó.
+* Recibir notificaciones de las notas que están en el área del mapa actual (zona cercana alrededor).
 * Descargar los mapas de una zona que se vaya a trabajar, para poder verlos offline.
 * Descargar las notas de una zona donde se vaya a trabajar offline.
 * Poder refrescar los datos de mapa cuando se vuelve a estar en línea.
 * Poder refrescar los datos de notas cuando se vuelve a estar en línea.
 * Poder visualizar las fotos publicadas en una nota ya creada.
 * Poder acceder a los datos (audio, video, traza) de una nota ya creada.
+* Poner en el mapa el recorrido hecho, aún si no está guardando la traza GPX.
+* Poder guardar la traza GPX de los últimos n minutos o x últimos metros. Esto, por si se olvidó iniciar traza.
+* Tener plantillas de texto de notas, para describir cosas similares. Árboles: Circunferencia, altura. Buses: ruta, nombre.
 
 ## Ultra avanzadas
 
 * Hacer una captura con Lidar.
+* Medir la altura de los objetos por medio de realidad aumentada. Como lo hace Arboreal.
 
 # No funcionales
 
@@ -60,3 +68,9 @@
 * Mostrar publicidad al comienzo de la aplicación.
 * Tener una barra de operaciones en un costado, para activación más fácil con una mano.
 * Poder cambiar la ubicación de la barra, para usarla con la otra mano.
+* Que la aplicación sea la misma en Android y iPhone - Kotlin o Dart.
+* Poder funcionar en background, cuando se toma la traza GPX.
+* Poder funcionar en background, cuando se toma la traza el vídeo.
+* Tener un atajo, para que al cargar la app ya esté tomando video.
+* Tener un atajo, para que al cargar la app ya esté grabando traza GPX.
+* Tener un atajo, para que al cargar la app ya esté grabando audio.
